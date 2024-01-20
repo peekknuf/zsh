@@ -3,7 +3,7 @@ ZSH theme: awesomepanda <br>
 Font: MesloLGS NF (optional) <br>
 BG image opacity: 10% <br>
 
-Absolute musts: [zoxide](https://github.com/ajeetdsouza/zoxide) | [fzf](https://github.com/junegunn/fzf). <br>
+Absolute musts: [zoxide](https://github.com/ajeetdsouza/zoxide) | [fzf](https://github.com/junegunn/fzf) <br>
 [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) | [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) | [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) | [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use) <br>
 
 
