@@ -11,4 +11,5 @@ Tweaks made to the original theme are the different color of the dir name, i hat
 
 Powerlevel10k is overrated tho, might switch back to it in the future tho, so not deleting it from the config yet. <br>
 Final Look: <br>
+
 ![final](bg/final_look.png)
