@@ -112,12 +112,22 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 eval "$(zoxide init zsh)"
+
 alias sd='./duckdb'
 alias chrome="chrome.exe"
 alias c='code'
-alias cfzf='code $(fzf -e -i)'
+alias cfz='code $(fzf -e -i)'
 alias desk='cd /mnt/c/Users/peekk/OneDrive/Escritorio'
+alias tp='cd "$(dirname "$(fzf)")"'
+alias superset_start='
+    source viz/bin/activate &&
+    export SUPERSET_CONFIG_PATH=~/viz/lib/python3.10/site-packages/superset/app/superset_config.py &&
+    export FLASK_APP=~/viz/lib/python3.10/site-packages/superset &&
+    superset init &&
+    superset run -p 8088 --with-threads --reload --debugger'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
