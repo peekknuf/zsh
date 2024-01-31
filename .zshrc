@@ -127,7 +127,9 @@ alias superset_start='
     export FLASK_APP=~/viz/lib/python3.10/site-packages/superset &&
     superset init &&
     superset run -p 8088 --with-threads --reload --debugger'
-
+alias ll='exa --long --icons'
+alias hq='harlequin --theme monokai'
+alias pdf='/mnt/c/Program\ Files/Adobe/Acrobat\ DC/Acrobat/Acrobat.exe'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -140,3 +142,5 @@ alias superset_start='
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH=$PATH:/usr/local/go/bin
