@@ -116,11 +116,12 @@ source $ZSH/oh-my-zsh.sh
 eval "$(zoxide init zsh)"
 
 alias sd='./duckdb'
-alias chrome="chrome.exe"
+alias hq='harlequin --theme monokai'
 alias c='code'
 alias cfz='code $(fzf -e -i)'
-alias desk='cd /mnt/c/Users/peekk/OneDrive/Escritorio'
 alias tp='cd "$(dirname "$(fzf)")"'
+alias chrome="chrome.exe"
+alias desk='cd /mnt/c/Users/peekk/OneDrive/Escritorio'
 alias superset_start='
     source viz/bin/activate &&
     export SUPERSET_CONFIG_PATH=~/viz/lib/python3.10/site-packages/superset/app/superset_config.py &&
@@ -128,7 +129,6 @@ alias superset_start='
     superset init &&
     superset run -p 8088 --with-threads --reload --debugger'
 alias ll='exa --long --icons'
-alias hq='harlequin --theme monokai'
 alias pdf='/mnt/c/Program\ Files/Adobe/Acrobat\ DC/Acrobat/Acrobat.exe'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
