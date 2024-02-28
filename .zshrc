@@ -55,7 +55,7 @@ ZSH_THEME="awesomepanda"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -66,7 +66,7 @@ ZSH_THEME="awesomepanda"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -133,7 +133,7 @@ alias hq='harlequin --theme monokai'
 alias pdf='/mnt/c/Program\ Files/Adobe/Acrobat\ DC/Acrobat/Acrobat.exe'
 alias reading='(desk && cd books && selected_file=$(fzf --height 50% --reverse) && cd "$(dirname "$selected_file")" && pdf "$(basename "$selected_file")")'
 alias txt='/mnt/c/Users/peekk/OneDrive/Escritorio/hlam/notepad/notepad++.exe'
-alias mkdir='mkcd() { mkdir -p "$@" && cd "$@"; }; mkcd'
+
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -151,3 +151,4 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/go/bin:$PATH
+export PATH=$PATH:/home/peek/nvim-linux64/bin:$PATH
